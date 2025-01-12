@@ -25,14 +25,13 @@ generateGhostButton.addEventListener('click', function () {
     responseSection.style.display = 'block';
 });
 
-// Handle user response
 yesButton.addEventListener('click', function () {
-    alert('Correct! You got the right ghost.');
+    alert('Good Job, on to the next one.');
     resetGenerator();
 });
 
 noButton.addEventListener('click', function () {
-    alert('Oops! Try again.');
+    alert('*DEAD* RIP');
     resetGenerator();
 });
 
