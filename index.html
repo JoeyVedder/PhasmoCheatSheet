@@ -15,7 +15,15 @@
         <p>Was this the correct ghost?</p>
         <button id="yesButton">Yes</button>
         <button id="noButton">No</button>
+        <audio id="yesSound" src="sounds/audio_TruckExitSoundEffect.wav"></audio>
+        <audio id="noSound" src="sounds/playerdying.mp3"></audio>
     </div>
+    <div id="customModal" class="popup hidden">
+        <div class="popup-content">
+            <p id="modalMessage"></p>
+            <button id="closeModalButton">Close</button>
+        </div>
+    </div>    
     <table>
         <thead>
             <tr>
